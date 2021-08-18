@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4239701E304B9300091F28 /* automatedospan.iqx in Resources */ = {isa = PBXBuildFile; fileRef = DD42396F1E304B9300091F28 /* automatedospan.iqx */; };
+		DD4239721E304E0900091F28 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4239711E304E0900091F28 /* CircleButton.swift */; };
+		DD83F40A1E30984200D5ED68 /* AnimationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83F4091E30984200D5ED68 /* AnimationsHelper.swift */; };
+		DDD8E7721E2C88980068F4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8E7711E2C88980068F4D9 /* AppDelegate.swift */; };
+		DDD8E7741E2C88980068F4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8E7731E2C88980068F4D9 /* ViewController.swift */; };
+		DDD8E7771E2C88980068F4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD8E7751E2C88980068F4D9 /* Main.storyboard */; };
+		DDD8E7791E2C88980068F4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD8E7781E2C88980068F4D9 /* Assets.xcassets */; };
+		DDD8E77C1E2C88980068F4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD8E77A1E2C88980068F4D9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD42396F1E304B9300091F28 /* automatedospan.iqx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = automatedospan.iqx; sourceTree = "<group>"; };
+		DD4239711E304E0900091F28 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		DD83F4091E30984200D5ED68 /* AnimationsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsHelper.swift; sourceTree = "<group>"; };
+		DDD8E76E1E2C88980068F4D9 /* SSOSpanTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSOSpanTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD8E7711E2C88980068F4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD8E7731E2C88980068F4D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDD8E7761E2C88980068F4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD8E7781E2C88980068F4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD8E77B1E2C88980068F4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDD8E77D1E2C88980068F4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD8E76B1E2C88980068F4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD8E7651E2C88980068F4D9 = {
+			isa = PBXGroup;
+			children = (
+				DDD8E7701E2C88980068F4D9 /* SSOSpanTouch */,
+				DDD8E76F1E2C88980068F4D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD8E76F1E2C88980068F4D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8E76E1E2C88980068F4D9 /* SSOSpanTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD8E7701E2C88980068F4D9 /* SSOSpanTouch */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8E7711E2C88980068F4D9 /* AppDelegate.swift */,
+				DDD8E7731E2C88980068F4D9 /* ViewController.swift */,
+				DDD8E7751E2C88980068F4D9 /* Main.storyboard */,
+				DD4239711E304E0900091F28 /* CircleButton.swift */,
+				DD83F4091E30984200D5ED68 /* AnimationsHelper.swift */,
+				DDD8E7781E2C88980068F4D9 /* Assets.xcassets */,
+				DDD8E77A1E2C88980068F4D9 /* LaunchScreen.storyboard */,
+				DD42396F1E304B9300091F28 /* automatedospan.iqx */,
+				DDD8E77D1E2C88980068F4D9 /* Info.plist */,
+			);
+			path = SSOSpanTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD8E76D1E2C88980068F4D9 /* SSOSpanTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD8E7801E2C88980068F4D9 /* Build configuration list for PBXNativeTarget "SSOSpanTouch" */;
+			buildPhases = (
+				DDD8E76A1E2C88980068F4D9 /* Sources */,
+				DDD8E76B1E2C88980068F4D9 /* Frameworks */,
+				DDD8E76C1E2C88980068F4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSOSpanTouch;
+			productName = SSOSpanTouch;
+			productReference = DDD8E76E1E2C88980068F4D9 /* SSOSpanTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD8E7661E2C88980068F4D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = StooSepp;
+				TargetAttributes = {
+					DDD8E76D1E2C88980068F4D9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SKVPMKVP5H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDD8E7691E2C88980068F4D9 /* Build configuration list for PBXProject "SSOSpanTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD8E7651E2C88980068F4D9;
+			productRefGroup = DDD8E76F1E2C88980068F4D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD8E76D1E2C88980068F4D9 /* SSOSpanTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD8E76C1E2C88980068F4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD8E77C1E2C88980068F4D9 /* LaunchScreen.storyboard in Resources */,
+				DDD8E7791E2C88980068F4D9 /* Assets.xcassets in Resources */,
+				DDD8E7771E2C88980068F4D9 /* Main.storyboard in Resources */,
+				DD4239701E304B9300091F28 /* automatedospan.iqx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD8E76A1E2C88980068F4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD83F40A1E30984200D5ED68 /* AnimationsHelper.swift in Sources */,
+				DD4239721E304E0900091F28 /* CircleButton.swift in Sources */,
+				DDD8E7741E2C88980068F4D9 /* ViewController.swift in Sources */,
+				DDD8E7721E2C88980068F4D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDD8E7751E2C88980068F4D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD8E7761E2C88980068F4D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD8E77A1E2C88980068F4D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD8E77B1E2C88980068F4D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD8E77E1E2C88980068F4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DDD8E77F1E2C88980068F4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD8E7811E2C88980068F4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SKVPMKVP5H;
+				INFOPLIST_FILE = SSOSpanTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoosepp.SSOSpanTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDD8E7821E2C88980068F4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SKVPMKVP5H;
+				INFOPLIST_FILE = SSOSpanTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoosepp.SSOSpanTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD8E7691E2C88980068F4D9 /* Build configuration list for PBXProject "SSOSpanTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD8E77E1E2C88980068F4D9 /* Debug */,
+				DDD8E77F1E2C88980068F4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD8E7801E2C88980068F4D9 /* Build configuration list for PBXNativeTarget "SSOSpanTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD8E7811E2C88980068F4D9 /* Debug */,
+				DDD8E7821E2C88980068F4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD8E7661E2C88980068F4D9 /* Project object */;
+}
